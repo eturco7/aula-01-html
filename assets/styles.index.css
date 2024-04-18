@@ -21,9 +21,15 @@ header {
     border-radius: 6px;
     height: 150px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+}
+
+#image-profile {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
 }
 
 #principal {
@@ -47,4 +53,20 @@ aside {
     border-radius: #af2020;
     height: 100%;
     width: 25%;
+}
+
+footer {
+    background-color: #4a4a4a;
+    border-radius: 6px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #f1f1f1;
+text-decoration: none;
+font-weight: 500;
 }
