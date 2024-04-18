@@ -13,15 +13,38 @@
     
 body {
     font-family: "Poppins", sans-serif;
-    color : #4c4c4c;
+    color : #000000;
 }
 
 header {
-    background-color: #ffb3b3;
+    background-color: #6f6f6f;
     border-radius: 6px;
     height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#principal {
+    border-radius: 6px;
+    height: 800px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main {
+    background-color: #6f6d6d;
+    border-radius: 6px;
+    height: 100%;
+    width: 73%;
+}
+
+aside {
+    background-color: #000000;
+    border-radius: #af2020;
+    height: 100%;
+    width: 25%;
 }
